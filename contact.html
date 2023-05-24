@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERA</title>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Inicio</a>
+    <div class="subnav">
+      <a href="historia.html">Historia</a> <i class="fa fa-caret-down"></i></a>
+
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Eventos <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="dapa.html">Día del Padre</a>
+        <a href="sanva.html">Día de San Valentín</a>
+      </div>
+    </div> 
+    <div class="subnav">
+      <button class="subnavbtn">Personal <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="mae.html">Maestros</a>
+        <a href="admin.html">Calidad Informativa</a>
+      </div>
+    </div>
+    <a class="home" href="contact.html">Contactanos</a>
+  </div>
+  
+  <div style="padding:0 16px">
+  <table>
+  <tr>
+  <td>
+  
+  </td>
+  </tr>
+  </table>
+  </table>  
+  </div>
+  <div class="ima">
+<img src="con.png" alt="">
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.ima{
+    margin-top: 130px;
+    margin-left: 300px;
+}
+
+img{
+    border-radius: 40px;
+    width: 700px;
+}
+
+body{
+ background-image: url(sch.jpg);
+ background-position: relative;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0;
+ font-family: 'Concert One', cursive;
+
+}
+.home{
+  background-color: rgb(105, 72, 50);
+}
+.logo{
+    margin-top: 150px;
+    margin-left: 450px;
+    width: 370px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background: linear-gradient(#459e2a, #0b8607);
+  transition: ease all 1s;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: linear-gradient(#47a02c, #0b8607);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</html>
